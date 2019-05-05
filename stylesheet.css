@@ -206,7 +206,8 @@ body {
   
 
 .main {
-  min-width: 800px;
+    height: 65px;
+    width: 100%;;
 }
 
 .contact-form {
@@ -224,6 +225,7 @@ body {
 }
 
 .form-item {
+  text-align: center;
   padding: 20px 0 10px 0;
   font-weight: bold;
 }
