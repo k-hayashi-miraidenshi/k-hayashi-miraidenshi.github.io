@@ -203,11 +203,9 @@ body {
     float: left;
     padding: 20px;
   }
-  
 
 .main {
-    height: 65px;
-    width: 100%;;
+  min-width: 800px;
 }
 
 .contact-form {
@@ -225,7 +223,6 @@ body {
 }
 
 .form-item {
-  text-align: center;
   padding: 20px 0 10px 0;
   font-weight: bold;
 }
