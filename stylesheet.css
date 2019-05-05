@@ -206,6 +206,7 @@ body {
 
 .main {
   min-width: 800px;
+  height: 65px;
 }
 
 .contact-form {
