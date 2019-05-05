@@ -12,6 +12,10 @@ body {
     padding: 0 15px;
     margin: 0 auto;
   }
+
+  .contact-form {
+    margin: 0 auto;
+  }
   
   .top-wrapper {
     padding: 180px 0 100px 0;
