@@ -24,7 +24,7 @@
       <?php echo $_POST['name']; ?>
       <div class="form-item">■ 年齢</div>
       <?php echo $_POST['age']; ?>
-      <div class="form-item">■ お問い合わせの種類</div>
+      <div class="form-item">■ 性別</div>
        <?php echo $_POST['category']; ?>
       <div class="form-item">■ 内容</div>
       <?php echo $_POST['body']; ?>
