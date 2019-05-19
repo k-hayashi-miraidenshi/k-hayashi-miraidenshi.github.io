@@ -47,12 +47,15 @@
 	 
 　　　
 	 <!-- 【ここから】新しいウィンドでブラウザを起動し、ポップアップ表示 -->
-	<button onclick="openWin()">新しいウィンドウで<br>ポップアップを表示</button>
+	<button onclick="openWin2()">新しいウィンドウで<br>ポップアップを表示</button>
 	<script>
 	var myWindow;
 	function openWin() {
    	 myWindow = window.open("/sent.php", "myWindow", "width=200,height=100");
     	myWindow.document.write("<p>ポップアップ表示だよ</p>");
+	}
+	function openWin2() {
+		window.open("/sent.php");
 	}
 	</script>
 	<!-- 【ここまで】新しいウィンドでブラウザを起動し、ポップアップ表示 -->
